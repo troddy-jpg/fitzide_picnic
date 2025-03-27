@@ -1,0 +1,33 @@
+#+title: Fitzide Picnic
+#+author: Trevor Roddy
+
+* TODO identify everything I wanna steal from gnorp apologue
+
+- prestige
+- talent points
+- talents
+- non-linear talent tree
+- units as resource
+- constructions with individual shops
+
+* Currencies:
+- talent points
+- shards
+- units
+- zybe
+- special units (made from units previously)
+
+
+* TODO identify everything to put in my game:
+- currency
+  - people
+  - money
+  - motivation
+  - blessing points
+- sacrifice (prestige)
+- blessings (talents)
+- artifacts
+- zone adventuring
+- phenomonan
+
+* LIST OF ARTIFACTS:
