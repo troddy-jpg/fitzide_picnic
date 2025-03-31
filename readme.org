@@ -1,54 +1,62 @@
 #+title: Fitzide Picnic
 #+author: Trevor Roddy
+* What makes an incremental game good?
+** buildings with costs which rise at a greater rate than their contributions
+* TODO design my game
+** currency
+*** material
+**** falls from the hill as the boat scrapes along
+*** distance
+**** should be increasing
+**** speed should be increasing
+**** spent to upgrade pulley system
+**** spending too much crashes the boat - don't let the autobuyers screw you over
+*** people
+*** money
+*** motivation
+*** blessing points
+** sacrifice (prestige)
+The gods of the zone are motivated by tribulation. The farther the boat moves before crashing back down the mountain, the more points you have to obtain blessings from the zone gods.
+** blessings (talents)
+Blessings change the decisions you make in regards to construction and unit allocation
+** exports
+*** material
+*** artifacts
+** imports
+*** vehicle rentals
+*** fuel
+*** food
+** zone adventuring
+*** artifacts
+*** phenomonan
+* From the start:
+** boat (click or hold): push boat
+*** the boat needs log-tracks to get far...
+** funding: $$$
+** tribe (10 fund): recruit unit
+** unit (gets hungry): can be assigned places
+** attach chain (costs 1 unit): pulley is now rigged
+** rope: pulls the boat using pulley
+** golden orb: kills closest unit every minute
+*** the boat is transporting this ?
+** vehicle (need fuel and unit): attached to pulley
+** log (assign units): cut trees ahead of boat. produces LOGS
+** LOGS: currency
+** clear mound (vehicle, units, fuel): flattens terrain
+** tracks (flat terrain, LOGS, assign units): place tracks for boat to advance
+** export logs (logs): +funding
+** import fuel (funding): +fuel
+** make wine
+** pray
+** dance
 
+* asset previewing
+** free tree assets
+[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/3.png]]
 
-* rando free assets
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_01.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_02.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_04.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_05.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_06.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_07.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_08.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_09.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_10.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_11.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_12.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_13.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_14.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_15.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_16.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_17.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_18.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_19.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_20.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_21.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_22.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_23.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_24.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_25.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_26.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_27.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_28.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_29.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_30.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_31.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_32.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_33.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_34.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_35.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_36.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_37.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_38.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_39.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_40.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_41.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_42.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_43.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_44.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_45.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_46.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_47.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_48.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_49.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_50.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_51.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_52.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_53.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_54.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/1 Tiles/Tile_55.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/2 Background/Background.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/4.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/5.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/6.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/4.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/5.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/6.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/7.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/8.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/9.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Fence/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Fence/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Fence/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/10.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/4.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/5.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/6.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/7.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/8.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Grass/9.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/4.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/5.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/6.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/4.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/5.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/6.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/7.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/8.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/4.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/5.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/6.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Stones/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Stones/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Stones/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Stones/4.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Stones/5.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Trees/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Trees/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Trees/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/3.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/4 Animated objects/Chest.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/4 Animated objects/Coin.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/4 Animated objects/Key.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/4 Animated objects/Rune.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/1 Character/Death1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/1 Character/Walk2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/10.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/11.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/12.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/13.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/14.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/15.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/16.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/17.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/18.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/19.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/20.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/21.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/22.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/3.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/4.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/5.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/6.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/7.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/8.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/Projectiles/9.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/2 Weapons/6.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/4 Icons/Icon_01.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/4 Icons/Icon_02.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/4 Icons/Icon_03.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/4 Icons/Icon_04.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/4 Icons/Icon_05.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/4 Icons/Icon_06.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/1 Main Character/4 Icons/Icon_07.png]][[File:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/6/DeathSD.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/6/RunSD.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/7 Icons/Icon_01.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/7 Icons/Icon_02.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/7 Icons/Icon_03.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/7 Icons/Icon_04.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/7 Icons/Icon_05.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/7 Icons/Icon_06.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/8 Other/Boom1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/8 Other/Boom2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/3 Enemies/8 Other/Dust.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/4 GUI/1 Interface/Tileset.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/4 GUI/4 Bars/BarSet.png]]
-[[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/roguelike pack/4 GUI/6 Logo/Logo.png]]
+** fetch every image in the free_assets folder and make an orgmode preview
 #+BEGIN_SRC emacs-lisp
 (let ((root-folder "~/emacsorg/fitzide_picnic/free_assets"))
   (dolist (file (directory-files-recursively root-folder "\\.\\(png\\|jpg\\|jpeg\\|gif\\|svg\\)$"))
     (insert (format "[[file:%s]]\n" (expand-file-name file)))))
 #+END_SRC
-
-
-* TODO identify everything I wanna steal from gnorp apologue
-
-- prestige
-- talent points
-- talents
-- non-linear talent tree
-- units as resource
-- constructions with individual shops
-
-* Currencies:
-- talent points
-- shards
-- units
-- zybe
-- special units (made from units previously)
-
-
-* TODO identify everything to put in my game:
-- currency
-  - people
-  - money
-  - motivation
-  - blessing points
-- sacrifice (prestige)
-- blessings (talents)
-- artifacts
-- zone adventuring
-- phenomonan
-
-* LIST OF ARTIFACTS:

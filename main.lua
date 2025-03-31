@@ -13,5 +13,5 @@ function love.update(dt)
 end
 
 function love.keypressed(key)
-  fitzide_picnic.handleKeypress(key)
+  fitzide_picnic.handle_keypress(key)
 end
