@@ -26,7 +26,7 @@ local tree_positions={
   math.random(love.graphics.getHeight()),
 }
 
- function forall_trees(dofn)
+function forall_trees(dofn)
    for odd=1,#tree_positions,2 do
      dofn({tree_positions[odd], tree_positions[odd+1]})
    end
@@ -45,13 +45,13 @@ function M.load()
   end
 ---@diagnostic disable-next-line: lowercase-global
   boat_pos={500,100}
-  Draw_boat = drawfn_from_image("full_boat-export.png")
+  Draw_boat = drawfn_from_image("assets/full_boat-export.png")
 ---@diagnostic disable-next-line: lowercase-global
   tree_pos={100,100}
 
 
     
-  Draw_tree = drawfn_from_image("tree_3.png")
+  Draw_tree = drawfn_from_image("assets/tree_3.png")
 end
 
 function M.draw()

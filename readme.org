@@ -29,6 +29,8 @@ Blessings change the decisions you make in regards to construction and unit allo
 ** zone adventuring
 *** artifacts
 *** phenomonan
+
+
 * From the start:
 ** boat (click or hold): push boat
 *** the boat needs log-tracks to get far...
@@ -54,7 +56,7 @@ Blessings change the decisions you make in regards to construction and unit allo
 ** free tree assets
 [[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/1.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/2.png]][[file:/Users/trevs/emacsorg/fitzide_picnic/free_assets/free-swamp-game-tileset-pixel-art/3 Objects/Willows/3.png]]
 
-** fetch every image in the free_assets folder and make an orgmode preview
+** Fetch every image in the free_assets folder and make an orgmode preview
 #+BEGIN_SRC emacs-lisp
 (let ((root-folder "~/emacsorg/fitzide_picnic/free_assets"))
   (dolist (file (directory-files-recursively root-folder "\\.\\(png\\|jpg\\|jpeg\\|gif\\|svg\\)$"))
